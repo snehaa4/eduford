@@ -102,18 +102,33 @@ nav .fas {
     padding: 18px 18px;
     display: block;
   }
-  .nav-links {
+  /* .nav-links {
     position: absolute;
     background-color: #f44336;
     right: -50%;
+    display: none;
     top: 0%;
     height: 100vh;
     width: 50%;
     z-index: 1;
     text-align: left;
-    /* display: none; */
+    display: none;
     transition: 1s;
+  } */
+  
+  .nav-links{
+    position: absolute;
+    display: none;
+    height: 100vh;
+    top: 0%;
+    width: 50%;
+    z-index: 1;
+    text-align: left;
+    transition: 1s;
+    background-color: #f44336;
+    
   }
+
   nav .fa {
     display: block;
     margin: 7px 14px;
