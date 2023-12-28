@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <section class="blog-header">
+        <nav>
+            <a href="index.html"> <img src="eduford_img/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" aria-hidden="true" onclick="HideMenue()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURCES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars fa-2x" id="fa-bars" onclick="ShowMenue()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+    <section class="map">
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14723.810715326064!2d75.86225!3d22.69280545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcfb09a33bc9%3A0x5433542158562a00!2sIndore%2C%20Madhya%20Pradesh%20452014!5e0!3m2!1sen!2sin!4v1703622031198!5m2!1sen!2sin"
+            width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h3>XYZ Road ABC Building</h3>
+                        <p>Indore, bhawarkua in</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>
+                        <h3>+91 0123456789</h3>
+                        <p>Monday to sunday 10AM tp 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>
+                        <h3>okalliswell@gmail.com</h3>
+                        <p>Email us your Query</p>
+
+                    </span>
+                </div>
+            </div>
+            <div class="form contact-col">
+                <!-- <h1>Leave a comment</h1> -->
+                <!-- <label for="name"></label> -->
+                <form action="form-handeler.php" method="post">
+
+                    <input type="text" name="name" id="" placeholder="Enter Name">
+                    <input type="text" name="email" id="" placeholder="Enter Email Address">
+                    <input type="text" name="subject" id="" placeholder="Enter Subject">
+                    <textarea name="Message" id="" cols="30" rows="7" placeholder="Message"></textarea>
+                    <a href="" class="btn-visit">Sende Message</a>
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="abouthome">
+
+        <div class="abouthome-col">
+            <h2>About us</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet aut non rem nobis nesciunt? In est et nesciunt placeat eos aperiam Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex qui, nam tempore autem illo excepturi doloribus. Iusto incidunt facere aut? officiis tempore.</p>
+            <i class="fab a fa-2x fa-facebook-square"></i>
+            <i class="fab a fa-2x fa-twitter"></i>
+            <i class="fab a fa-2x fa-instagram"></i>
+            <i class="fab a fa-2x fa-linkedin"></i>
+            <p>Made with <i class="fas a fa-heart"></i> in INDIA </p>
+    
+        </div>
+    
+    </section>
+
+<script src="script.js"></script>
+</body>
+
+
+</html>
